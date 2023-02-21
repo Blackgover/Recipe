@@ -1,0 +1,11 @@
+.container {
+    display: flexbox;
+    flex-direction: column;
+    .image {
+        position: relative;
+    }    
+    .category {}    
+    .ingredients {}    
+    .procedure {}
+
+}

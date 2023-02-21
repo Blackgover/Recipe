@@ -1,0 +1,35 @@
+.navigation {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-family: 'Dancing Script', cursive;
+    
+    .logo {
+        height: 100%;
+        width: 150px;
+        padding: 5px;
+        text-transform: uppercase;
+        font-family: 'Dancing Script', cursive;
+        font-size: 25px;
+        color: #ff1493;
+        font-weight: bolder;
+    }
+    
+    .nav-link-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+    }
+    
+    .nav-link {
+        color: whitesmoke;
+        padding: 20px 20px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+}
